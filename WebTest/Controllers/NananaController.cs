@@ -6,17 +6,12 @@ using System.Web.Mvc;
 
 namespace WebTest.Controllers
 {
-    public class TestController : Controller
+    public class NananaController : Controller
     {
-        // GET: Test
+        // GET: Nanana
         public ActionResult Index()
         {
             return View();
-        }
-
-        public string Test()
-        {
-            return "Tesfsdfsdt";
         }
     }
 }
